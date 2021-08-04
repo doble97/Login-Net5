@@ -10,3 +10,15 @@
 /home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/obj/Debug/net5.0/CoreApi.dll
 /home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/obj/Debug/net5.0/ref/CoreApi.dll
 /home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/obj/Debug/net5.0/CoreApi.pdb
+/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/obj/Debug/net5.0/CoreApi.csprojAssemblyReference.cache
+/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/obj/Debug/net5.0/CoreApi.GeneratedMSBuildEditorConfig.editorconfig
+/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/obj/Debug/net5.0/CoreApi.AssemblyInfoInputs.cache
+/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/obj/Debug/net5.0/CoreApi.AssemblyInfo.cs
+/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/obj/Debug/net5.0/CoreApi.csproj.CoreCompileInputs.cache
+/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/obj/Debug/net5.0/CoreApi.dll
+/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/obj/Debug/net5.0/ref/CoreApi.dll
+/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/obj/Debug/net5.0/CoreApi.pdb
+/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/bin/Debug/net5.0/CoreApi.deps.json
+/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/bin/Debug/net5.0/CoreApi.dll
+/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/bin/Debug/net5.0/ref/CoreApi.dll
+/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/bin/Debug/net5.0/CoreApi.pdb

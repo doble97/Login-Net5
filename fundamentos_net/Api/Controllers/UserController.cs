@@ -16,32 +16,18 @@ namespace Api.Controllers
         //CRUD 
         [HttpGet]
         public IActionResult GetUsers(){
-            return Ok("HOla mundo");
+            return Ok(_repository.GetAll());
         }
         [HttpGet("{id}")]
         public IActionResult GetUser(int id){
-            var user = new User(){
-                Id = id,
-                Name= "Jorge Gonzalez",
-                Username="doblej",
-                Password="123456",
-            };
+            var user = _repository.GetOne(id);
             return Ok(user);
         }
         
         //CREATE
         [HttpPost]
         public IActionResult CreateUser(User user){
-            /*if(ModelState.IsValid){
-                System.Console.WriteLine("MODELO VALIDO");
-            }
-            var userDto = new UserDto(){
-                Id=18,
-                Name="Jorge",
-                Username="doblej97"
-            };*/
-            
-            // return Ok(userDto);
+            _repository.Create(user);
             return Ok("nothing");
         }
     }

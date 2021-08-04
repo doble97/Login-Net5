@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/Api/Api.csproj": {}
+    "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/Api/Api.csproj": {}
   },
   "projects": {
-    "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/Api/Api.csproj": {
+    "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/Api/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/Api/Api.csproj",
+        "projectUniqueName": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/Api/Api.csproj",
         "projectName": "Api",
-        "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/Api/Api.csproj",
+        "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/Api/Api.csproj",
         "packagesPath": "/home/jorgegonzalezdavila/.nuget/packages/",
-        "outputPath": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/Api/obj/",
+        "outputPath": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jorgegonzalezdavila/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/CoreApi.csproj": {
-                "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/CoreApi.csproj"
+              "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/CoreApi.csproj": {
+                "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/CoreApi.csproj"
               },
-              "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/InfraApi/InfraApi.csproj": {
-                "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/InfraApi/InfraApi.csproj"
+              "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/InfraApi/InfraApi.csproj": {
+                "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/InfraApi/InfraApi.csproj"
               }
             }
           }
@@ -45,6 +45,12 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -72,14 +78,14 @@
         }
       }
     },
-    "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/CoreApi.csproj": {
+    "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/CoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/CoreApi.csproj",
+        "projectUniqueName": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/CoreApi.csproj",
         "projectName": "CoreApi",
-        "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/CoreApi.csproj",
+        "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/CoreApi.csproj",
         "packagesPath": "/home/jorgegonzalezdavila/.nuget/packages/",
-        "outputPath": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/obj/",
+        "outputPath": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jorgegonzalezdavila/.nuget/NuGet/NuGet.Config"
@@ -124,14 +130,14 @@
         }
       }
     },
-    "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/InfraApi/InfraApi.csproj": {
+    "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/InfraApi/InfraApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/InfraApi/InfraApi.csproj",
+        "projectUniqueName": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/InfraApi/InfraApi.csproj",
         "projectName": "InfraApi",
-        "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/InfraApi/InfraApi.csproj",
+        "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/InfraApi/InfraApi.csproj",
         "packagesPath": "/home/jorgegonzalezdavila/.nuget/packages/",
-        "outputPath": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/InfraApi/obj/",
+        "outputPath": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/InfraApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jorgegonzalezdavila/.nuget/NuGet/NuGet.Config"
@@ -146,8 +152,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/CoreApi.csproj": {
-                "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/CoreApi.csproj"
+              "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/CoreApi.csproj": {
+                "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/CoreApi.csproj"
               }
             }
           }
@@ -162,6 +168,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

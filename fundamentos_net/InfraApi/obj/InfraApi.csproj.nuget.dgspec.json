@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/InfraApi/InfraApi.csproj": {}
+    "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/InfraApi/InfraApi.csproj": {}
   },
   "projects": {
-    "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/CoreApi.csproj": {
+    "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/CoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/CoreApi.csproj",
+        "projectUniqueName": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/CoreApi.csproj",
         "projectName": "CoreApi",
-        "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/CoreApi.csproj",
+        "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/CoreApi.csproj",
         "packagesPath": "/home/jorgegonzalezdavila/.nuget/packages/",
-        "outputPath": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/obj/",
+        "outputPath": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jorgegonzalezdavila/.nuget/NuGet/NuGet.Config"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/InfraApi/InfraApi.csproj": {
+    "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/InfraApi/InfraApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/InfraApi/InfraApi.csproj",
+        "projectUniqueName": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/InfraApi/InfraApi.csproj",
         "projectName": "InfraApi",
-        "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/InfraApi/InfraApi.csproj",
+        "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/InfraApi/InfraApi.csproj",
         "packagesPath": "/home/jorgegonzalezdavila/.nuget/packages/",
-        "outputPath": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/InfraApi/obj/",
+        "outputPath": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/InfraApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jorgegonzalezdavila/.nuget/NuGet/NuGet.Config"
@@ -78,8 +78,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/CoreApi.csproj": {
-                "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/CoreApi/CoreApi.csproj"
+              "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/CoreApi.csproj": {
+                "projectPath": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/CoreApi/CoreApi.csproj"
               }
             }
           }

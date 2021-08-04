@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aYaC+h6l3sCYUR/iiKwrWd0uYybQJRY3NbtCeOva5uQdj0RDMsuejg2IYRiTtxIZFg2pfUULNmNqEnBOcXrjgQ==",
+  "dgSpecHash": "JIxrtujLyqdGVIc+QvJN/xIOJ/Hj8C2xjU9V8d+p9Gmc2djmMcIv204YQSvaLvaJHnW+DZdV3TaHPIoOKkbLGQ==",
   "success": true,
-  "projectFilePath": "/home/jorgegonzalezdavila/programacion/fundamentos/fundamentos_net/InfraApi/InfraApi.csproj",
+  "projectFilePath": "/home/jorgegonzalezdavila/programacion/fundamentos/Login-Net5/fundamentos_net/InfraApi/InfraApi.csproj",
   "expectedPackageFiles": [
     "/home/jorgegonzalezdavila/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/jorgegonzalezdavila/.nuget/packages/microsoft.entityframeworkcore/6.0.0-preview.5.21301.9/microsoft.entityframeworkcore.6.0.0-preview.5.21301.9.nupkg.sha512",

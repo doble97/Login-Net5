@@ -2,11 +2,12 @@ using CoreApi.Interfaces;
 using InfraApi.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-
+using System;
 namespace Api
 {
     public class Startup
@@ -23,6 +24,11 @@ namespace Api
         {
 
             services.AddControllers();
+            var versionMaria = new MariaDbServerVersion(new Version(10,6,3));
+            services.AddDbContext<UserContext>(options=> options.UseMySql(Configuration.GetConnectionString("LoginNet"),versionMaria));
+            // services.AddDbContext<UserContext>(options=>options.useSql());
+            // var sqlString = @"Server=db;Database=master;User=sa;Password=Your_password123;";
+            // services.AddDbContext<UserContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("LoginNet")));
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddSwaggerGen(c =>
             {
