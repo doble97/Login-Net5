@@ -28,7 +28,7 @@ namespace Api.Controllers
         [HttpPost]
         public IActionResult CreateUser(User user){
             _repository.Create(user);
-            return Ok("nothing");
+            return Ok(user);
         }
     }
 }

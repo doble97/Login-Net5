@@ -1,6 +1,7 @@
 using System;
 using CoreApi.Models;
 using Microsoft.EntityFrameworkCore;
+using InfraApi.Data.Configurations;
 
 namespace InfraApi.Data
 {
@@ -12,6 +13,7 @@ namespace InfraApi.Data
         }
 
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Word> Words{get;set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -21,7 +23,8 @@ namespace InfraApi.Data
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<User>().Property(p => p.Id).IsRequired();
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
+            modelBuilder.ApplyConfiguration(new WordConfiguration());
         }
     }
 }

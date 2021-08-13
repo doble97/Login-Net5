@@ -1,5 +1,6 @@
 using CoreApi.Interfaces;
 using InfraApi.Data;
+using InfraApi.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
